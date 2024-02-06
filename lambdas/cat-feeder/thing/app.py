@@ -54,7 +54,8 @@ def lambda_handler(event, context):
         myMQTTClient.connect()
    
         dictionary ={ 
-            "event": "Feedme",
+            "event": "FEED_BOTH_BOWLS",
+            "event_source": os.environ['ThingName'],
             "reportedTime": "1234567890"
         }
 
