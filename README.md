@@ -4,7 +4,7 @@ The commands below assumes you will deploy this project in the us-east-1 region,
 
 ```
 git clone git@github.com:chiwaichan/feedmyfurbabies-cdk-iot.git
-cdk feedmyfurbabies-cdk-iot
+cd feedmyfurbabies-cdk-iot
 cdk deploy
 
 git remote rm origin
